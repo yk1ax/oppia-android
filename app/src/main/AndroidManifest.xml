@@ -146,7 +146,8 @@
     <activity android:name=".app.testing.TopicRevisionTestActivity" />
     <activity
       android:name=".app.topic.questionplayer.QuestionPlayerActivity"
-      android:theme="@style/OppiaThemeWithoutActionBar" />
+      android:theme="@style/OppiaThemeWithoutActionBar"
+      android:windowSoftInputMode="adjustPan"/>
     <activity
       android:name=".app.topic.revisioncard.RevisionCardActivity"
       android:theme="@style/OppiaThemeWithoutActionBar" />
